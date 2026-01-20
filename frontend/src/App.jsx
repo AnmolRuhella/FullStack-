@@ -11,7 +11,7 @@ useEffect(()=>{
   }).catch((error)=>{
     console.log(error , "error from fetching api")
   })
-})
+},[])
 
   return (
     <>
